@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="months">
+		<item>Студзень</item>
+		<item>Люты</item>
+		
+		<item>Сакавiк</item>
+		<item>Красавiк</item>
+		<item>Травень</item>
+		
+		<item>Чэрвень</item>
+		<item>Лiпень</item>
+		<item>Жнiвень</item>
+		
+		<item>Верасень</item>
+		<item>Кастрычнiк</item>
+		<item>Лiстапад</item>
+		
+		<item>Снежань</item>
+	</string-array>
+	
+	<string-array name="meters">
+		<item>Кухня - халодная вада </item>
+		<item>Кухня - гарачая вада </item>
+		<item>Санвузел - халодная вада </item>
+		<item>Санвузел - гарачая вада </item>
+		<item>Газ </item>
+		<item>Электрычнасць </item>
+	</string-array>
+</resources>

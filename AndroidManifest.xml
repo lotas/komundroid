@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.yaraslav"
+      android:versionCode="20110219"
+      android:versionName="1.5.0">
+      <uses-sdk android:minSdkVersion="5" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application 
+    	android:name="KomundroidApplication"
+    	android:icon="@drawable/icon"
+    	android:label="@string/app_name">
+        
+
+    <activity android:label="@string/app_name" android:name="com.yaraslav.main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+	
+	<activity android:name="GaugeActivity" android:label="@string/app_name"></activity>
+	<activity android:name="AddDataForm" android:label="@string/app_name"></activity>
+	<activity android:name="Preferences" android:label="@string/preferences_name"></activity>
+	<activity android:name="GaugesList" android:label="@string/gaugeslist_name"></activity>
+	<activity android:name="DbManager" android:label="@string/dbmanager_name"></activity>
+	
+	<activity android:name="org.achartengine.GraphicalActivity" />
+
+	</application>
+	
+	<uses-permission android:name="android.permission.CAMERA" android:required="false" />
+
+</manifest> 

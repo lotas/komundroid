@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">KomunDroid - Acount utilities</string>
+	<string name="gauge_activity_name">Gauge</string>
+	<string name="cur_gauge_value">Latest value:</string>
+	<string name="add_data_btn">Add reading</string>
+	<string name="error_parsing_value">Please input the correct number, i.e. 1234456.123</string>
+	<string name="data_saved_succesfully">Data successfully saved!</string>
+
+	<string name="label_value">Reading:</string>
+	<string name="label_date">Date:</string>
+
+	<string name="btn_add_text">Add</string>
+	<string name="btn_edit_text">Save</string>
+	
+	<string name="toast_delete_data_failed">Error while deleting!</string>
+	<string name="toast_delete_data">Succesfully removed!</string>
+	
+	<string name="alert_remove_data">Delete</string>
+	<string name="alert_remove_data_text">Do you really want to remove this reading?</string>
+	<string name="alert_remove_data_btn">Delete!</string>
+	<string name="alert_remove_data_btn_no">No</string>
+	
+	<string name="preferences_name">Settings</string>
+	
+	<string name="menu_tariffs">Settings</string>
+	<string name="menu_reports">Report</string>
+	<string name="menu_about">About</string>
+	<string name="menu_language">Language</string>
+	<string name="menu_dbman">Backup/Restore</string>
+	<string name="menu_quit">Exit</string>
+		
+	<string name="select_language">Select language:</string>
+	
+	<string name="main_header_text">Meters:</string>
+	
+	<string name="selected_report_month">Report for </string>
+	
+	<string name="version_unknown">unknown version</string>
+	<string name="dialog_about_title">About</string>
+	<string name="dialog_about">
+		<b>KomunDroid</b> - Account utilities.\n
+		\n
+		The program allows you to record readings of water meters, gas and electricity.
+
+		\n\n
+		Author: Yaraslau Kurmyza\n
+		URL: http://yaraslav.com/android \n
+		E-mail: lotask@gmail.com \n
+		\n
+		Version: </string>
+	
+	<string name="dialog_close">Close</string>
+	
+	<string name="flash_on">Flashlight on</string>
+	<string name="flash_off">Flashlight off</string>
+	
+	
+	<string name="select_month">Select month:</string>
+
+	<string name="gauge_period_total">Total:</string>
+	<string name="gauge_tariff">Rate:</string>
+	<string name="gauge_amount">Amount:</string>
+	
+	<string name="btn_add_reading">Add reading</string>
+	<string name="gauge_readings">Meter readings:</string>
+
+	<string name="btn_add">Save</string>
+	<string name="btn_cancel">Cancel</string>
+	
+	<string name="meter_context_menu_title">Reading actions</string>
+	<string name="meter_context_menu_edit">Edit record</string>
+	<string name="meter_context_menu_remove">Remove record</string>
+
+	<string name="flashlight_on">Flashlight ON</string>
+	<string name="flashlight_off">Flashlight OFF</string>
+	
+	<string name="gaugeslist_name">Meters list</string>
+	<string name="dbmanager_name">Database backup/restore</string>
+
+	<string name="export_db_to_sd">Export DB to SD</string>	
+	<string name="import_db_from_sd">Import DB from SD</string>
+	<string name="cleanup_db">Cleanup DB (Removes all data!)</string>
+	
+	<string name="backup_confirmation">Are you sure (this will overwrite any existing backup data)?</string>
+	<string name="import_confirmation">Are you sure (this will overwrite existing current data)?</string>
+	<string name="cleanupdb_confirmation">Are you sure (this will delete all data)?</string>
+	<string name="backup_error">External storage is not available, unable to export data.</string>
+	<string name="import_error">External storage is not available, unable to import data.</string>
+
+	<string name="data_deleted">Data deleted</string>
+	<string name="exporting">Exporting database...</string>
+	<string name="importing">Importing database...</string>
+	<string name="export_success">Export successful!</string>
+	<string name="import_success">Import successful!</string>
+	<string name="export_fail">Export failed!</string>
+	<string name="import_fail">Import failed - </string>
+	<string name="import_nobackup">Database backup file does not exist, cannot import.</string>
+	<string name="import_notreadable">Database backup file exists, but is not readable, cannot import.</string>
+		
+	<string name="yes">Yes</string>	
+	<string name="no">No</string>
+	
+	<string name="btn_charts">Chart</string>
+	<string name="chart_date">Date</string>	
+	<string name="chart_consumption">Consumption</string>
+</resources>

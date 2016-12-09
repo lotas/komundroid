@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">KomunDroid - Улiк камунальных паслуг</string>
+	<string name="cur_gauge_value">Апошняе паказанне:</string>
+	<string name="add_data_btn">Дадаць паказанне</string>
+	<string name="error_parsing_value">Калi ласка, увядзiце карэктны лiк, у фармаце  1234456.123</string>
+	<string name="data_saved_succesfully">Дадзеныя паспяхова захаваны!</string>
+
+	<string name="label_value">Значэнне:</string>
+	<string name="label_date">Дата:</string>
+
+	<string name="btn_add_text">Дадаць</string>
+	<string name="btn_edit_text">Захаваць</string>
+	
+	<string name="toast_delete_data_failed">Адбылася памылка пры выдаленнi!</string>
+	<string name="toast_delete_data">Паспяхова выдалена!</string>
+	
+	<string name="alert_remove_data">Выдаленне</string>
+	<string name="alert_remove_data_text">Вы сапраўды жадаеце выдалiць паказанне?</string>
+	<string name="alert_remove_data_btn">Выдалiць!</string>
+	<string name="alert_remove_data_btn_no">Не</string>
+	
+	<string name="preferences_name">Налады</string>
+	
+	<string name="menu_tariffs">Налады</string>
+	<string name="menu_reports">Отчет</string>
+	<string name="menu_about">Аб праграме</string>
+	<string name="menu_language">Мова</string>
+	<string name="menu_dbman">Бэкап дадзеных</string>
+	<string name="menu_quit">Выхад</string>
+	<string name="select_language">Выберыце мову:</string>
+		
+	<string name="main_header_text">Лiчыльнiкi:</string>
+	
+	<string name="selected_report_month">Паказання за </string>
+	
+	<string name="version_unknown">невядомая версiя</string>
+	<string name="dialog_about_title">Аб праграме</string>
+	<string name="dialog_about">
+		<b>KomunDroid</b> - Улiк камунальных паслуг.\n
+		\n
+		Праграма дазваляе весцi улiк показанняў лiчыльнiкаў вады, газа, электрычнасцi.\n
+		
+		Праграма разспрацавана ў рамках конкурсу <b>velcom</b> Android Belarus (http://android.velcom.by) 
+		\n\n
+		Аутар: Курмыза Яраслаў\n
+		URL: http://yaraslav.com/android \n
+		E-mail: lotask@gmail.com \n
+		\n
+		Версiя: </string>
+	
+	<string name="dialog_close">Зачынiць</string>
+	
+	<string name="flash_on">Включить подсветку</string>
+	<string name="flash_off">Выключить подсветку</string>
+
+	<string name="select_month">Выберыце месяц:</string>
+
+
+	<string name="gauge_period_total">Усяго:</string>
+	<string name="gauge_tariff">Тарыф:</string>
+	<string name="gauge_amount">Сума:</string>
+	
+	<string name="btn_add_reading">Дадаць паказанне</string>
+	<string name="gauge_readings">Паказаннi лiчыльнiка:</string>
+
+
+	<string name="btn_add">Захаваць</string>
+	<string name="btn_cancel">Адмянiць</string>
+	
+	
+	<string name="meter_context_menu_title"> Рэдагаванне дадзеных </string>
+	<string name="meter_context_menu_edit"> Рэдагаваць запіс </string>
+	<string name="meter_context_menu_remove"> Выдаліць запіс </string>
+
+	<string name="flashlight_on">Уключыць падсвятленне</string>
+	<string name="flashlight_off">Выключыць падсвятленне</string>
+	
+	<string name="gaugeslist_name">Спiс лiчыльнiкаў</string>
+	<string name="dbmanager_name">Бэкап\аднаўленне дадзеных</string>
+	
+	<string name="export_db_to_sd">Экспарт БД на SD карту</string>	
+	<string name="import_db_from_sd">Iмпарт БД з SD карты</string>
+	<string name="cleanup_db">Выдалiць усе дадзеныя!</string>
+	
+	<string name="backup_confirmation">Вы ўпэўнены (гэта прывядзе да перазапісу ўсіх існуючых бэкап-дадзеных)? </string> 
+	<string name="import_confirmation">Вы ўпэўнены (гэта прывядзе да перазапісу існуючых бягучых дадзеных)? </string> 
+	<string name="cleanupdb_confirmation">Вы ўпэўненыя (гэта прывядзе да выдалення ўсіх бягучых дадзеных)? </string> 
+	<string name="backup_error">Знешняе сховішча не даступна, не ў стане экспартаваць дадзеныя. </string> 
+	<string name="import_error">Знешняе сховішча не даступна, не ў стане імпартаваць дадзеныя. </string> 
+	
+	<string name="data_deleted">Дадзеныя выдалены </string> 
+	<string name="exporting">Экспарт базы дадзеных ...</string> 
+	<string name="importing">Імпарт базы дадзеных ...</string> 
+	<string name="export_success">Экспарт паспяхова завершаны! </string> 
+	<string name="import_success">Імпарт паспяхова завершаны! </string> 
+	<string name="export_fail">Памылка экспарту! </string> 
+	<string name="import_fail">Памылка імпарту - </string> 
+	<string name="import_nobackup">Файл рэзервовай копіі базы дадзеных не існуе, імпарт не магчымы. </string> 
+	<string name="import_notreadable">Файл рэзервовай копіі базы дадзеных існуе, але не чытаецца, імпарт не магчымы. </string> 
+	
+	<string name="yes"> Так </string> 
+	<string name="no"> Не </string>
+
+	<string name="btn_charts">Графiк</string>
+	<string name="chart_date">Дата</string>	
+	<string name="chart_consumption">Спажыванне</string>	
+</resources>

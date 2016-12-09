@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name_dev">KomunDev</string>
+
+	<string name="pref_locale">applocale</string>
+	<string name="app_name">KomunDroid - Учет коммунальных услуг</string>
+	<string name="lots_of_text">This is some text,added in strings.xml, attributes editor....</string>
+	<string name="gauge_activity_name">Gauge</string>
+	<string name="cur_gauge_value">Последнее показание:</string>
+	<string name="add_data_btn">Добавить показания</string>
+	<string name="error_parsing_value">Пожалуйста, введите корректное число, в формате  1234456.123</string>
+	<string name="data_saved_succesfully">Данные успешно сохранены!</string>
+	
+	<string name="label_value">Значение:</string>
+	<string name="label_date">Дата:</string>
+
+	<string name="btn_add_text">Добавить</string>
+	<string name="btn_edit_text">Сохранить</string>
+	
+	<string name="toast_delete_data_failed">Произошла ошибка при удалении!</string>
+	<string name="toast_delete_data">Успешно удалено!</string>
+	
+	<string name="alert_remove_data">Удаление</string>
+	<string name="alert_remove_data_text">Вы действительно хотите удалить показание?</string>
+	<string name="alert_remove_data_btn">Удалить!</string>
+	<string name="alert_remove_data_btn_no">Нет</string>
+	
+	<string name="preferences_name">Настройки</string>
+	
+	<string name="menu_tariffs">Настройки</string>
+	<string name="menu_reports">Отчет</string>
+	<string name="menu_about">О программе</string>
+	<string name="menu_language">Язык</string>
+	<string name="menu_dbman">Бэкап данных</string>
+	<string name="menu_quit">Выход</string>
+	
+	<string name="select_language">Выберите язык:</string>
+		
+	<string name="main_header_text">Счётчики:</string>
+	
+	<string name="selected_report_month">Oтчет за </string>
+	
+	<string name="version_unknown">неизвестная версия</string>
+	<string name="dialog_about_title">О программе</string>
+	<string name="dialog_about">
+		<b>KomunDroid</b> - Учёт расходов за коммунальными услугами.\n
+		\n
+		Программа позволяет вести учёт показаний счетчиков воды, газа, электричества.\n
+		
+		Программа разработана в рамках конкурса <b>velcom</b> Android Belarus (http://android.velcom.by) 
+		\n\n
+		Автор: Курмыза Ярослав\n
+		URL: http://yaraslav.com/android \n
+		E-mail: lotask@gmail.com \n
+		\n
+		Версия: </string>
+	
+	<string name="dialog_close">Закрыть</string>
+	
+	<string name="flash_on">Включить подсветку</string>
+	<string name="flash_off">Выключить подсветку</string>
+	
+	
+	<string name="select_month">Выберите месяц:</string>
+	
+	<string name="gauge_period_total">Всего:</string>
+	<string name="gauge_tariff">Тариф:</string>
+	<string name="gauge_amount">Сумма:</string>
+	
+	<string name="btn_add_reading">Добавить показания</string>
+	<string name="gauge_readings">Показания счетчика:</string>
+	
+	<string name="btn_add">Сохранить</string>
+	<string name="btn_cancel">Отмена</string>
+	
+	<string name="meter_context_menu_title">Редактирование данных</string>
+	<string name="meter_context_menu_edit">Редактировать запись</string>
+	<string name="meter_context_menu_remove">Удалить запись</string>
+
+	<string name="flashlight_on">Включить подсветку</string>
+	<string name="flashlight_off">Выключить подсветку</string>
+	
+	<string name="gaugeslist_name">Список счетчиков</string>
+	<string name="dbmanager_name">Бэкап\восстановление данных</string>
+	
+	<string name="export_db_to_sd">Экспорт БД на SD карту</string>	
+	<string name="import_db_from_sd">Импорт БД с SD карты</string>
+	<string name="cleanup_db">Удалить все данные!</string>
+	
+	<string name="backup_confirmation">Вы уверены (это приведет к перезаписи всех существующих бэкап-данных)? </string>
+	<string name="import_confirmation">Вы уверены (это приведет к перезаписи существующих текущих данных)? </string>
+	<string name="cleanupdb_confirmation">Вы уверены (это приведет к удалению всех текущих данных)? </string>
+	<string name="backup_error">Внешнее хранилище не доступно, не в состоянии экспортировать данные. </string>
+	<string name="import_error">Внешнее хранилище не доступно, не в состоянии импортировать данные. </string>
+	
+	<string name="data_deleted">Данные удалены </string>
+	<string name="exporting">Экспорт базы данных ...</string>
+	<string name="importing">Импорт базы данных ...</string>
+	<string name="export_success">Экспорт успешно завершен! </string>
+	<string name="import_success">Импорт успешно завершен! </string>
+	<string name="export_fail">Ошибка экспорта!</string>
+	<string name="import_fail">Ошибка импорта - </string>
+	<string name="import_nobackup">Файла резервной копии базы данных не существует, импорт не возможен. </string>
+	<string name="import_notreadable">Файл резервной копии базы данных существует, но не читается, импорт не возможен. </string>
+	
+	<string name="yes"> Да </string>
+	<string name="no"> Нет </string>
+
+	<string name="btn_charts">График</string>	
+	<string name="chart_date">Дата</string>	
+	<string name="chart_consumption">Потребление</string>
+</resources>

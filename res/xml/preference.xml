@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Тарифы"
+		android:summary="Установка тарифов">
+		<EditTextPreference android:title="Электричество"
+			android:defaultValue="173.0" android:key="electricity"
+			android:summary="Цена за 1 Квт"></EditTextPreference>
+		<EditTextPreference android:title="Газ"
+			android:defaultValue="462.2" android:key="gas" android:summary="Цена за 1 м3"></EditTextPreference>
+
+
+		<EditTextPreference android:title="Вода"
+			android:defaultValue="502.0"
+			android:key="water" android:summary="Цена за 1 м3"></EditTextPreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

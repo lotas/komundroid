@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_tarifs"          
+          android:title="@string/menu_tariffs"/>
+          
+    <item android:id="@+id/menu_reports"
+    	android:visible = "false"          
+          android:title="@string/menu_reports" />
+          
+	<item android:id="@+id/menu_about"
+          android:title="@string/menu_about" />
+          
+    <item android:id="@+id/menu_lang"
+          android:title="@string/menu_language" />
+          
+    <item android:id="@+id/menu_dbman"
+          android:title="@string/menu_dbman" />
+          
+    <item android:id="@+id/menu_quit"      
+          android:title="@string/menu_quit" />              
+</menu>

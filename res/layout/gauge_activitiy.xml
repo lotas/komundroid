@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	>
+	<TableLayout 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"
+	    android:paddingBottom="4dp"
+	    android:paddingTop="2dp"
+	    android:paddingLeft="6dp"
+	    android:textStyle="bold"
+		android:textSize="13dp" 
+	    android:background="#FFFFFF">
+	    <TableRow> 
+	        <TextView 
+	            android:text="@string/gauge_period_total"	            
+	            android:width ="75px"
+	            android:textColor="#000000"
+	            />
+	        <TextView 
+	            android:gravity="right"
+	            android:layout_width="wrap_content"
+	            android:id="@+id/gauge_table_text_amount"
+	            android:textColor="#004444"	            
+	            />
+	    </TableRow>
+    </TableLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" 	
+		android:orientation="horizontal" android:layout_marginTop="6dp">	
+		<Button android:id="@+id/addDataBtn" 
+			android:layout_height="wrap_content" 
+			android:text="@string/btn_add_reading"					
+			android:drawableLeft="@drawable/add"
+			android:layout_centerHorizontal="true" android:layout_width="210dip">
+		</Button>
+		
+		<Button android:drawableLeft="@drawable/chart" android:text="@string/btn_charts" android:id="@+id/gaugeChartBtn" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_width="fill_parent"></Button>	    	
+	</LinearLayout>
+
+	<TextView android:id="@+id/textCurGaugeVal" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="4dp"
+		android:textStyle="bold"
+		android:textColor="@color/header_main"
+		android:textSize="14dp" 
+		android:text="@string/gauge_readings" 
+	></TextView>
+	
+	<ListView android:id="@+id/dataListView" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_centerVertical="true"		
+	></ListView>
+	
+</LinearLayout>	

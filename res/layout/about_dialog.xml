@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:padding="5dp"
+	>
+	
+
+	<ImageView android:id="@+id/image" android:src="@drawable/icon"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" />
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_below="@+id/image"
+		android:layout_height="200px">
+
+		<TextView android:text="@+id/TextView01" android:id="@+id/text"
+			android:singleLine="false"
+			android:textSize="14dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoLink="web|email"/>
+
+	</ScrollView>
+
+	<Button android:id="@+id/ImageButton01" android:layout_below="@id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:text="@string/dialog_close" />
+
+</RelativeLayout>
